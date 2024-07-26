@@ -1,0 +1,113 @@
+.navsection{
+   border: 2px solid rgb(170, 24, 184);
+   display: flex;
+   justify-content: space-between;
+   background-color:white;
+   color:rgb(14, 1, 14);
+   height: 80px;
+  position:sticky;
+   margin-top: 2px;
+ box-shadow: 0 5px 15px 0 rgva(0,0,0,25);
+
+}
+.cart{
+   padding-top: 1%;
+   padding-right: 5%;
+   font-size: 3vh;
+}
+.title{
+   display: flex;
+   padding-left:5% ;
+  width: 150px;
+}
+
+.user{
+
+   padding-top: 2%;
+   color: rgb(19, 17, 17);
+}
+
+.search{
+
+   padding-top: 2%;
+   color: white;
+}
+.prosection{
+   background-color: white;
+
+}
+
+.submenu ul li {
+   list-style: none;
+   margin: 30px;
+   color: darkblue;
+   
+}
+
+.submenu ul {
+   display: inline-flex;
+   margin-left: 11%;
+   
+}
+
+ .submenu ul:hover{
+   color: rgb(26, 24, 24);
+ }
+
+.submenu {
+   padding-bottom: 6%;
+    background-color: bisque;
+    height: 10px;
+    border-radius: 25px;
+    border: solid;
+   margin-top: 1px;
+   
+}
+
+.pageSection {
+   display: grid;
+   grid-template-columns: repeat(2,300px);
+   gap: 50px;
+   background-color: white;
+}
+
+.pageImage{
+   width: 250px;
+   height:250px;
+
+   
+}
+
+.pageImg img {
+   width: 50%;
+   padding-top: 10%;
+   padding-right: 1 rem 2rem;
+   
+}
+.ind-image{
+width: 250px;
+height: 250px;
+}
+.ind-section{
+
+   display: flex;
+}
+.ind-image img {
+   width: 100%;
+}
+.ind-details{
+   padding: 20px;
+}
+.space{
+
+   margin: 10px;
+}
+.ind-details button{
+   background-color: orangered;
+   padding: 10px;
+   width: 10rem;
+   border-radius: 5px;
+   columns: white;
+}
+
+
